@@ -27,7 +27,7 @@ module.exports = async (app) => {
      */
     .watch("resources/views/**/*", "app/**/*")
 
-    .setPublicPath("")
+    .setPublicPath("/app/themes/eri-5.5.0/public/")
 
     /**
      * Target URL to be proxied by the dev server.
